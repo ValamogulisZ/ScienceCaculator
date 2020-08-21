@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Caculator</title>
+    <link rel="stylesheet" href="caculator.css">
+  </head>
+  <body>
+    <h1>Caculator</h1>
+    <div class="body">
+      <div class="display">
+        <div id="processDisplay" class="processDisplay">
+          process display
+        </div>
+        <div id="answerDisplay" class="answerDisplay">
+          answer display
+        </div>
+      </div>
+
+      <div class="buttonArea">
+        <input onclick="cac('+')" class="button" type="button" name="+" value="+">
+        <input onclick="cac('-')" class="button" type="button" name="-" value="-">
+        <input onclick="cac('*')" class="button" type="button" name="*" value="*">
+        <input onclick="cac('/')" class="button" type="button" name="/" value="/">
+        <br>
+        <input onclick="specailCac('sin')" class="button" type="button" name="sin" value="sin">
+        <input onclick="specailCac('cos')" class="button" type="button" name="cos" value="cos">
+        <input onclick="specailCac('tan')" class="button" type="button" name="tan" value="tan">
+        <input onclick="specailCac('√')" class="button" type="button" name="√" value="√">
+        <br>
+        <input onclick="num('1')" class="button" type="button" name="1" value="1">
+        <input onclick="num('2')" class="button" type="button" name="2" value="2">
+        <input onclick="num('3')" class="button" type="button" name="3" value="3">
+        <input onclick="cac('^')" class="button" type="button" name="^" value="^">
+        <br>
+        <input onclick="num('4')" class="button" type="button" name="4" value="4">
+        <input onclick="num('5')" class="button" type="button" name="5" value="5">
+        <input onclick="num('6')" class="button" type="button" name="6" value="6">
+        <input onclick="eq()" class="equalButton" type="button" name="=" value="=">
+        <br>
+        <input onclick="num('7')" class="button" type="button" name="7" value="7">
+        <input onclick="num('8')" class="button" type="button" name="8" value="8">
+        <input onclick="num('9')" class="button" type="button" name="9" value="9">
+        <br>
+        <input onclick="ac()" class="redButton" type="button" name="AC" value="AC">
+        <input onclick="num('0')" class="button" type="button" name="0" value="0">
+        <input onclick="dot()" class="button" type="button" name="." value=".">
+      </div>
+    </div>
+
+    <div class="note">
+      <h2>NOTE</h2>
+      <ol>
+        <li>"^" is power;</li>
+        <li>"√" is square root;</li>
+        <li>For "tan", "cos", "sin" and "√" function, hit them first.<br>Then, input your number;</li>
+      </ol>
+    </div>
+
+    <script src="caculator.js">
+    </script>
+  </body>
+</html>

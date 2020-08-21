@@ -1,0 +1,53 @@
+.body{
+  border: 2px solid blue;
+  width: 220px;
+}
+.display{
+  border: 1px solid;
+  background-color: #DDD;
+}
+.processDisplay{
+  border-bottom: 1px dashed gray;
+}
+.answerDisplay{
+
+}
+.buttonArea{
+  background-color: #798F92;
+}
+.button{
+  width:50px;
+  background-color: black;
+  color: white;
+}
+.button:hover{
+  background-color: blue;
+  color:white;
+}
+.redButton{
+  width: 50px;
+  background-color: red;
+  color: white;
+}
+.redButton:hover{
+  background-color: orange;
+  color: black;
+}
+.equalButton{
+  width: 50px;
+  height: 65px;
+  float: right;
+  margin-right: 8px;
+  background-color: blue;
+  color: white;
+}
+.equalButton:hover{
+  background-color: white;
+  color: black;
+}
+.note{
+  border: 2px solid black;
+  float: left;
+  margin-left: 300px;
+  margin-top: -200px;
+}
